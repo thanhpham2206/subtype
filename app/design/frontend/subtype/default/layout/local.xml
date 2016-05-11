@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="root">
+            <remove name="global_notices"/>
+            <remove name="breadcrumbs" />
+
+
+            <reference name="head">
+                <action method="setForcedTitle"><title>Account Dashboard</title></action>
+                <!--Adding JS Files Styles-->
+                <action method="addItem"><type>skin_js</type><name>js/bootstrap.min.js</name><params/></action>
+                <action method="addItem"><type>skin_js</type><name>js/fotorama.js</name><params/></action>
+                <action method="addItem"><type>skin_js</type><name>js/main.js</name><params/></action>
+
+                <!--Adding CSS Files Styles-->
+                <action method="addCss"><stylesheet>css/bootstrap.min.css</stylesheet><params/></action>
+                <action method="addCss"><stylesheet>css/fotorama.css</stylesheet><params/></action>
+                <action method="addCss"><stylesheet>css/font-awesome.css</stylesheet><params/></action>
+                <action method="addCss"><stylesheet>css/fonts.css</stylesheet><params/></action>
+                <action method="addCss"><stylesheet>css/main.css</stylesheet><params/></action>
+
+            </reference>
+
+            <reference name="header">
+                <remove name="store_language" />
+                <remove name="welcome" />
+                <remove name="currency" />
+
+                <block type="cms/block" name="cms_header_top_social">
+                    <action method="setBlockId"><block_is>header-top-social</block_is></action>
+                </block>
+                <block type="cms/block" name="cms_header_top_nav">
+                    <action method="setBlockId"><block_is>header-top-nav</block_is></action>
+                </block>
+                <block type="core/template" name="top.search" as="topSearch" template="catalogsearch/form.mini.phtml"/>
+
+            </reference>
+            <reference name="footer">
+                <remove name="footer_currency" />
+                <remove name="footer_links" />
+                <remove name="footer_links2" />
+                <remove name="cms_footer_links" />
+                <remove name="cms_footer_links_sm" />
+                <block type="cms/block" name="footer_menu">
+                    <action method="setBlockId"><block_is>footer_menu</block_is></action>
+                </block>
+                <block type="cms/block" name="footer-widget-wrapper">
+                    <action method="setBlockId"><block_is>footer-widget-wrapper</block_is></action>
+                </block>
+            </reference>
+            <reference name="footer.newsletter">
+                <block type="cms/block" name="footer-title-content" as="footer-title-content">
+                    <action method="setBlockId"><block_is>footer-title-content</block_is></action>
+                </block>
+            </reference>
+        </reference>
+
+    </default>
+
+
+
+
+
+</layout>

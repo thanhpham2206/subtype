@@ -1,0 +1,36 @@
+@font-face {
+    font-family: PTSans;
+    src: url('../fonts/PTSans/pts55f-webfont.eot');
+    src: url('../fonts/PTSans/pts55f-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PTSans/pts55f-webfont.woff2') format('woff2'),
+    url('../fonts/PTSans/pts55f-webfont.woff') format('woff'),
+    url('../fonts/PTSans/pts55f-webfont.ttf') format('truetype'),
+    url('../fonts/PTSans/pts55f-webfont.svg#pt_sansregular') format('svg');
+}
+@font-face {
+    font-family: PTSansBold;
+    src: url('../fonts/PTSansBold/pts75f-webfont.eot');
+    src: url('../fonts/PTSansBold/pts75f-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PTSansBold/pts75f-webfont.woff2') format('woff2'),
+    url('../fonts/PTSansBold/pts75f-webfont.woff') format('woff'),
+    url('../fonts/PTSansBold/pts75f-webfont.ttf') format('truetype'),
+    url('../fonts/PTSansBold/pts75f-webfont.svg#pt_sansbold') format('svg');
+}
+@font-face {
+    font-family: OpenSansCondensed;
+    src: url('../fonts/OpenSans-CondLight/opensans-condlight-webfont.eot');
+    src: url('../fonts/OpenSans-CondLight/opensans-condlight-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-CondLight/opensans-condlight-webfont.woff2') format('woff2'),
+    url('../fonts/OpenSans-CondLight/opensans-condlight-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-CondLight/opensans-condlight-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-CondLight/opensans-condlight-webfont.svg#open_sanscondensed_light') format('svg');
+}
+@font-face {
+    font-family: OpenSansCondensedBold;
+    src: url('../fonts/OpenSans-CondBold/opensans-condbold-webfont.eot');
+    src: url('../fonts/OpenSans-CondBold/opensans-condbold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-CondBold/opensans-condbold-webfont.woff2') format('woff2'),
+    url('../fonts/OpenSans-CondBold/opensans-condbold-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-CondBold/opensans-condbold-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-CondBold/opensans-condbold-webfont.svg#open_sans_condensedbold') format('svg');
+}
