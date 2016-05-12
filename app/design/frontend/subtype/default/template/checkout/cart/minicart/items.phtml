@@ -56,7 +56,8 @@ if(empty($_cartQty)) {
                     <?php echo $this->getChildHtml('extra_actions') ?>
                     <li>
                         <a title="<?php echo $this->quoteEscape($this->__('Checkout')) ?>" class="button checkout-button" href="<?php echo $this->getCheckoutUrl() ?>">
-                            <?php echo $this->__('Checkout') ?>
+                            <i class="fa fa-lock"></i>
+                            <?php echo $this->__('Checkout Securely') ?>
                         </a>
                     </li>
                 </ul>
